@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FuelSmart" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryLight</item>
+        <!-- Secondary color -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <!-- Background color -->
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+        <item name="android:textColorSecondary">@color/colorTextSecondary</item>
+        <!-- Customize your theme here -->
+        <item name="android:buttonStyle">@style/Widget.AppCompat.Button.Colored</item>
+    </style>
+
+    <style name="Theme.FuelSmart" parent="Base.Theme.FuelSmart" />
+</resources>
