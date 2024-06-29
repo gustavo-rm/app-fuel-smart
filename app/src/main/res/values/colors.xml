@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#F4514A</color>
+    <color name="colorPrimaryDark">#C63B38</color> <!-- Um tom mais escuro do laranja -->
+    <color name="colorAccent">#9E9E9E</color> <!-- Cinza para elementos de destaque -->
+    <color name="colorPrimaryLight">#FF7961</color> <!-- Um tom mais claro do laranja -->
+    <color name="colorSecondary">#9E9E9E</color>
+    <color name="colorBackground">#FFFFFF</color> <!-- Fundo branco -->
+    <color name="colorTextPrimary">#212121</color> <!-- Texto principal em preto -->
+    <color name="colorTextSecondary">#757575</color> <!-- Texto secundário em cinza escuro -->
+</resources>

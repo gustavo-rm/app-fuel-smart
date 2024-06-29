@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FuelSmart</string>
+    <string name="fuel_consumption_1">Consumo de Combustible 1</string>
+    <string name="fuel_consumption_2">Consumo de Combustible 2</string>
+    <string name="price_liter_fuel_1">Precio por Litro de Combustible 1</string>
+    <string name="price_liter_fuel_2">Precio por Litro de Combustible 2</string>
+    <string name="fuels_label">Combustibles:</string>
+    <string name="search">Buscar</string>
+    <string name="liter_value">Precio por Litro:</string>
+    <string name="fuel_liter_value_1">Precio por Litro de Combustible 1</string>
+    <string name="fuel_liter_value_2">Precio por Litro de Combustible 2</string>
+    <string name="compare">Comparar</string>
+    <string name="toast_blank_fields">Por favor, ingrese todos los valores.</string>
+    <string name="gasoline">Gasolina</string>
+    <string name="ethanol">Etanol</string>
+    <string name="diesel">Diésel</string>
+    <string name="selected_as_fuel_1">Combustible ya seleccionado como Combustible 1</string>
+    <string name="selected_as_fuel_2">Combustible ya seleccionado como Combustible 2</string>
+    <string name="fuel_1_more_profitable">Combustible 1 es más rentable</string>
+    <string name="fuel_2_more_profitable">Combustible 2 es más rentable</string>
+    <string name="info">Informacíon</string>
+    <string name="info_fuels_label">Ingrese el valor de consumo del Combustible 1 y luego del Combustible 2. Si no lo sabe, puede buscar en la lista haciendo clic en el botón de búsqueda.</string>
+    <string name="info_fuel_liter_price">Ingrese el precio por litro del Combustible 1 y luego del Combustible 2.</string>
+
+</resources>

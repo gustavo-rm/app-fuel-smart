@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_icon_fuel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_label"
+        app:srcCompat="@drawable/icon_fuel" />
+
+    <TextView
+        android:id="@+id/tv_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/fuels_label"
+        app:layout_constraintStart_toEndOf="@+id/iv_icon_fuel"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_fuel_2"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/iv_icon_fuel"
+        app:layout_constraintTop_toBottomOf="@+id/til_fuel_1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiet_fuel_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fuel_consumption_2"
+            android:inputType="numberDecimal" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_fuel_1"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_icon_fuel">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiet_fuel_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fuel_consumption_1"
+            android:inputType="numberDecimal" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/bt_search_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/search"
+        app:layout_constraintBottom_toTopOf="@+id/til_fuel_2"
+        app:layout_constraintStart_toEndOf="@+id/til_fuel_1"
+        app:layout_constraintTop_toTopOf="@+id/til_fuel_1" />
+
+    <Button
+        android:id="@+id/bt_search_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/search"
+        app:layout_constraintBottom_toBottomOf="@+id/til_fuel_2"
+        app:layout_constraintStart_toEndOf="@+id/til_fuel_2"
+        app:layout_constraintTop_toTopOf="@+id/til_fuel_2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:srcCompat="@drawable/ic_dolar_sign" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/liter_value"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/til_fuel_2" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_value_1"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiet_value_liter_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fuel_liter_value_1"
+            android:inputType="numberDecimal" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_value_2"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/til_value_1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiet_value_liter_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fuel_liter_value_2"
+            android:inputType="numberDecimal" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/bt_search_fuel"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/compare"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/til_value_2" />
+
+    <ImageButton
+        android:id="@+id/btn_info_label_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/info"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_label"
+        app:layout_constraintStart_toEndOf="@+id/tv_label"
+        app:layout_constraintTop_toTopOf="@+id/tv_label"
+        app:srcCompat="@drawable/ic_info" />
+
+    <ImageButton
+        android:id="@+id/btn_info_label_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:srcCompat="@drawable/ic_info" />
+</androidx.constraintlayout.widget.ConstraintLayout>
